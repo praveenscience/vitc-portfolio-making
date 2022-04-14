@@ -3,5 +3,12 @@
     "Avatar": "https://i.imgur.com/fFYP6zLh.png",
     "FirstName": "Pikachu",
     "LastName": "Detective"
+  },
+  "SocialNetworks": {
+    "Twitter": null,
+    "Facebook": null,
+    "LinkedIn": null,
+    "Instagram": null,
+    "GitHub": null
   }
 }
