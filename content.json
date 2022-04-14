@@ -12,5 +12,54 @@
     "Instagram": "https://instagr.am/",
     "Facebook": "https://fb.me/"
   },
-  "Roles": ["Developer", "Student", "Problem Solver", "Gamer", "Rider"]
+  "Roles": ["Developer", "Student", "Problem Solver", "Gamer", "Rider"],
+  "About": {
+    "Desc": "GSSoC '22, YouTuber, Full Stack JavaScript, Careers Mentor, Hackathon Hunter, Innovator, React JS Specialist, Speaker, FullStack JS Developer, DevRel, Blockchain Enthusiast, Top 0.05% Overall in Stack Overflow",
+    "Designation": "Full Stack JavaScript Specialist & YouTuber",
+    "DesigDesc": "Working with JavaScript specifically React JS & Node JS and creating awesome content on YouTube.",
+    "Details": [
+      {
+        "Birthday": "22 March 1995",
+        "Website": "praveen.science",
+        "Phone": "+44 789 654 3210",
+        "City": "London, England, UK"
+      },
+      {
+        "Education": "Cloud Computing Degree",
+        "Work": "Vetti",
+        "Email": "dont-spam@praveen.science",
+        "Freelance": "Available"
+      }
+    ],
+    "AboutDesc": "People call me Praveen or PravMan. I am an ailurophile, vegetarian, and an experimental chef. Well, I would like to experiment as much as I can, on food and my life. My body is made up of HTML & CSS, which is literally me! This defines me as a Full Stack Web Developer (Front End, Back End, Middleware, Whatever...).",
+    "Facts": {
+      "Desc": "I have been doing a lot of work these days.",
+      "Counters": [
+        {
+          "Icon": "archive",
+          "Value": 100,
+          "Title": "Projects",
+          "Desc": "Completed"
+        },
+        {
+          "Icon": "headset",
+          "Value": 75,
+          "Title": "Clients",
+          "Desc": "Called"
+        },
+        {
+          "Icon": "file-check",
+          "Value": 30,
+          "Title": "Offers",
+          "Desc": "Received"
+        },
+        {
+          "Icon": "code-square",
+          "Value": 200,
+          "Title": "Hours",
+          "Desc": "Coded"
+        }
+      ]
+    }
+  }
 }
