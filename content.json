@@ -1,3 +1,7 @@
 {
-  "Avatar": "https://i.imgur.com/fFYP6zLh.png"
+  "PersonalInfo": {
+    "Avatar": "https://i.imgur.com/fFYP6zLh.png",
+    "FirstName": "Pikachu",
+    "LastName": "Detective"
+  }
 }
