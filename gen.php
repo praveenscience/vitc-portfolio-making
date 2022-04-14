@@ -642,5 +642,6 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <style>#hero {background: url("<?php echo $content["PersonalInfo"]["BackgroundImage"]; ?>") top center;}</style>
   </body>
 </html>
