@@ -6,10 +6,10 @@
     "LastName": "Detective"
   },
   "SocialNetworks": {
-    "Twitter": null,
-    "Facebook": null,
-    "LinkedIn": null,
-    "Instagram": null,
-    "GitHub": null
+    "LinkedIn": "https://linkedin.com/",
+    "Twitter": "https://twitter.com/",
+    "GitHub": "https://github.com/",
+    "Instagram": "https://instagr.am/",
+    "Facebook": "https://fb.me/"
   }
 }
