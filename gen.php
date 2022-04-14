@@ -1,10 +1,11 @@
+<?php $content = json_decode(file_get_contents("content.json"), true); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>iPortfolio Bootstrap Template - Index</title>
+    <title><?php echo "{$content["PersonalInfo"]["FirstName"]} {$content["PersonalInfo"]["LastName"]}"; ?> - Portfolio</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -42,8 +43,8 @@
     <header id="header">
       <div class="d-flex flex-column">
         <div class="profile">
-          <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle" />
-          <h1 class="text-light"><a href="index.html">Alex Smith</a></h1>
+          <img src="<?php echo $content["PersonalInfo"]["Avatar"]; ?>" alt="" class="img-fluid rounded-circle" />
+          <h1 class="text-light"><a href="index.html"><?php echo "{$content["PersonalInfo"]["FirstName"]} {$content["PersonalInfo"]["LastName"]}"; ?></a></h1>
           <div class="social-links mt-3 text-center">
             <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
             <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -83,7 +84,7 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
       <div class="hero-container" data-aos="fade-in">
-        <h1>Alex Smith</h1>
+        <h1><?php echo "{$content["PersonalInfo"]["FirstName"]} {$content["PersonalInfo"]["LastName"]}"; ?></h1>
         <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
       </div>
     </section>
@@ -99,9 +100,7 @@
           </div>
 
           <div class="row">
-            <div class="col-lg-4" data-aos="fade-right">
-              <img src="assets/img/profile-img.jpg" class="img-fluid" alt="" />
-            </div>
+            <div class="col-lg-4" data-aos="fade-right"><img src="<?php echo $content["PersonalInfo"]["Avatar"]; ?>" class="img-fluid" alt="" /></div>
             <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
               <h3>UI/UX Designer &amp; Web Developer.</h3>
               <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -246,7 +245,7 @@
             <div class="col-lg-6" data-aos="fade-up">
               <h3 class="resume-title">Sumary</h3>
               <div class="resume-item pb-0">
-                <h4>Alex Smith</h4>
+                <h4><?php echo "{$content["PersonalInfo"]["FirstName"]} {$content["PersonalInfo"]["LastName"]}"; ?></h4>
                 <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
                 <ul>
                   <li>Portland par 127,Orlando, FL</li>
